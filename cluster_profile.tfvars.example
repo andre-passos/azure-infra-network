@@ -1,0 +1,17 @@
+name_prefix = "hub_network"
+location = "brazilsouth"
+region_name = "brazilsouth"
+resource_group_name = "rg-projectX-hub-network"
+er_circuit_id = "/subscriptions/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/resourceGroups/${var.resource_group_name}/providers/Microsoft.Network/expressRouteCircuits/<Express Route Name>"
+
+####
+# Adicionado Infra de rede para comunicação com ExpressRoute
+####
+vnet_range = "10.10.0.128/25"
+subnet_gw_range = "10.10.0.128/27"
+azusubnetfw = "10.10.0.192/26"
+subnet_dmz_range = "10.10.0.160/27"
+tags = {Project = "ProjectX"}
+####
+####
+
