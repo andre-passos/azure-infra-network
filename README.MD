@@ -1,6 +1,10 @@
 # Terraform to implement a Hub Network with firewall enabled
 ### Created by Andre Passos
 
+
+
+#### This code will implement a Hub Network where you can do a peer within another Vnets to connect to onpremise network through Express Route implementation. *This code dont implement Express Route Circuit.
+
 ## To begin, you need the following informations and requisites, it will be in tfvars file:
 1 - Express Route Circuit ID
 
