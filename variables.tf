@@ -32,10 +32,7 @@ variable "subnet_dmz_range" {
   description = "Subnet DMZ Range"
   default     = ""
 }
-variable "cluster_name" {
-  description = "Cluster name"
-  default     = ""
-}
+
 variable "tags" {
   description = "Add custom tags to all resources"
   type        = "map"

@@ -18,4 +18,16 @@
 
 6 - Enjoy the journey!
 
+### To run:
+
+##### Create a tfvars file with all information from custom_network.tfvars.example file.
+
+##### Execute the following commands from project folder:
+
+terraform plan
+##### Change file name to name of file created in step before
+terraform apply -var-file=filecreatedforvariables.tfvars
+
+
+
  
